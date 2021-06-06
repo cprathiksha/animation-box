@@ -1,0 +1,92 @@
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color:lightgreen;
+    border:2px black solid;
+}
+.div2{
+    height:100px;
+    width: 100px;
+    background-color:yellow;
+    border: 2px inset black;
+    position: relative;
+    animation-name: animation1;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+.div3{
+    height:50px;
+    width: 50px;
+    background-color:skyblue;
+    border: 1px inset black;
+    position: relative;
+    animation-name: animation2;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+    
+}
+.div4{
+    height:30px;
+    width:30px;
+    background-color:blue;
+    border: 0.5px inset black;
+    position: relative;
+    animation-name: animation3;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+}
+@keyframes animation1 {
+   0% {
+       left: 0px;top:0px;
+    }
+   25% {
+       left: 500px;top:0px;
+    }
+   50% {
+       left:500px;top:400px;
+    }
+   75% {
+       left:0px;top:400px;
+    }
+   100% {
+       left: 0px;top:0px;
+    }
+}
+@keyframes animation2 {
+    0% {
+        left: 0px;top:0px;
+    }
+    25% {
+        left: 100px;top:0px;
+    }
+    50% {
+        left:100px;top:100px;
+    }
+    75% {
+        left:0px;top:100px;
+    }
+    100% {
+        left: 0px;top:0px;
+    }
+}
+
+@keyframes animation3 {
+    0% {
+        left: 0px;top:0px;
+    }
+    25% {
+        left: 50px;top:0px;
+    }
+    50% {
+        left:50px;top:50px;
+    }
+    75% {
+        left:0px;top:50px;
+    }
+    100% {
+        left: 0px;top:0px;
+    }
+}
